@@ -17,7 +17,7 @@ namespace OdeToFoodGit
             routes.MapRoute(
                 name: "Cuisine",
                 url: "cuisine/{name}",
-                defaults: new { controller = "Cuisine", action = "Search", name = "" });
+                defaults: new { controller = "Cuisine", action = "Search", name = "French" });
 
             // /Home
             routes.MapRoute(
