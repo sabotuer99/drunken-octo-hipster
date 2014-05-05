@@ -13,6 +13,13 @@ namespace OdeToFoodGit
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // /Cuisine/french
+            routes.MapRoute(
+                name: "Cuisine",
+                url: "cuisine/{name}",
+                defaults: new { controller = "Cuisine", action = "Search", name = "French" });
+
+            // /Home
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
