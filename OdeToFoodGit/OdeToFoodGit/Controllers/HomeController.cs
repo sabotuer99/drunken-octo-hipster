@@ -12,6 +12,7 @@ namespace OdeToFoodGit.Controllers
         {
 
             // an arbitrary change
+            // another arbitrary change in the arbitrary branch
             //ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             var controller = RouteData.Values["controller"];
