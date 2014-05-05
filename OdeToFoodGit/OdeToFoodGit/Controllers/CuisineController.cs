@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OdeToFoodGit.Filters;
 
 namespace OdeToFoodGit.Controllers
 {
@@ -10,7 +11,8 @@ namespace OdeToFoodGit.Controllers
     {
         //
         // GET: /Cuisine/
-        [Authorize]
+        //[Authorize]
+        [Log]
         public ActionResult Search(string name)
         {
 
