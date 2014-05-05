@@ -10,7 +10,7 @@ namespace OdeToFoodGit.Controllers
     {
         //
         // GET: /Cuisine/
-
+        [Authorize]
         public ActionResult Search(string name)
         {
 
